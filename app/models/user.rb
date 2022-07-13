@@ -8,9 +8,12 @@ class User < ApplicationRecord
   validates :email, presence: true, length: {maximum: Settings.user.email_max},
                     format: {with: Settings.user.email_regex},
                     uniqueness: true
-  validates :password_digest, presence: true,
-                              length: {minimum: Settings.user.pass_min}
+  validates :password, presence: true,
+                              length: {minimum: Settings.user.pass_min},
+                              allow_nil: true
   has_secure_password
+
+  scope :incre_order, ->{order(id: :asc)}
 
   class << self
     def digest string

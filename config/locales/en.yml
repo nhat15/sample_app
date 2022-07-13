@@ -4,7 +4,10 @@ en:
   welcome: "Welcome to the Sample App!"
   user_not_save: "User Not Saved!"
   invalid_messages: "Invalid email/password combination"
-
+  profile_updated: "Profile update"
+  update_fail: "Update fails"
+  user_delete: "User deleted"
+  delete_failed: "Delete failed"
   layouts:
     application:
       english: "English"
@@ -58,10 +61,22 @@ en:
       para_1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       para_2: "contact page"
   users:
+    index:
+      all_users: "All users"
+    user:
+      delete: "Delete"
+      you_sure: "You sure?" 
+    edit:
+      edit: "Edit user"
+      update: "Update your profile"
+      confirmation: "Confirmation"
+      save: "Save changes"
+      change: "change"
     new:
       sign_up: "Sign up"
       para: "This will be a signup page for new users."
       create_account: "Create new account"
+      confirmation: "Password confirmation"
   shared:
     error_messages:
       the_form_contains: "The form contains"
