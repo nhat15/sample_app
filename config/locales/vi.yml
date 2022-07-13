@@ -8,12 +8,21 @@ vi:
   update_fail: "Cập nhật thất bại"
   user_delete: "Người dùng đã bị xóa"
   delete_failed: "Xóa không thành công"
+  not_correct: "Người dùng không đúng"
+  not_admin: "Người dùng không phải quản trị viên"
   not_found: "Người dùng không tìm thấy"
   account_activation: "Kích hoạt tài khoản"
   check_email_message: "Vui lòng kiểm tra email để kích hoạt tài khoản."
   check_your_email: "Tài khoản chưa được kích hoạt, hãy kiểm tra email của bạn để biết liên kết kích hoạt"
   account_activated: "Tài khoản đã được kích hoạt!"
   invalid_activation_link: "Đường dẫn kích hoạt tài khoản không hợp lệ"
+  password_reset: "Đặt lại mật khẩu"
+  email_sent: "Email đã được gửi với hướng dẫn sử dụng"
+  email_not_found: "Không tìm thấy địa chỉ email"
+  cannot_empty: "không được để trống"
+  pass_reset: "Mật khẩu đã được đặt lại."
+  not_valid: "Người dùng không hợp lệ"
+  password_expired: "Mật khẩu hết hạn"
   layouts:
     application:
       english: "Tiếng Anh"
@@ -93,9 +102,26 @@ vi:
       signup_now: "Đăng ký ngay!"
       new_user: "Người dùng mới?"
       remember: "Nhớ tôi trên trình duyệt này"
+      forgot_password: "(Quên mật khẩu)"
   user_mailer:
     account_activation:
       sample_app: "Ứng dụng mẫu"
       hi: "Xin chào"
       welcome: "Chào mừng đến với ứng dụng mẫu! Hãy click vào đường link bên dưới để kích hoạt tài khoản của bạn:"
       activate: "Kích hoạt"
+      remember: "Ghi nhớ tôi trên máy tính này"
+    password_reset:
+      password_reset: "Đặt lại mật khẩu"
+      to_reset: "Để đặt lại mật khẩu của bạn hãy click vào đường link phía dưới:"
+      expired: "Đường dẫn này sẽ hết hạn sau 2 giờ."
+      warning: "Nếu yêu cầu đặt lại mật khẩu này không phải của bạn, hãy 
+                bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
+      reset_password: "Đặt lại mật khẩu"
+  password_resets:
+    new:
+      forgot_password: "Quên mật khẩu"
+      submit: "OK"
+    edit:
+      reset_password: "Đặt lại mật khẩu"
+      update_password: "Cập nhật mật khẩu"
+      confirmation: "Xác nhận"

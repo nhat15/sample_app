@@ -19,6 +19,7 @@ user:
   pass_min: 6
   size: 50
   gravatar_size: 80
+  password_reset: 2
 
 admin:
   user_per_page: 20
