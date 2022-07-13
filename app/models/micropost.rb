@@ -2,6 +2,7 @@ class Micropost < ApplicationRecord
   belongs_to :user
   has_one_attached :image
   scope :last_posts, ->{order created_at: :desc}
+  scope :by_user_id, ->(user_id){where user_id: user_id}
   delegate :name, to: :user, prefix: :user, allow_nil: true
   validates :content, presence: true, length: {maximum: Settings.micropost.content_max}
   validates :image, content_type: { in: Settings.micropost.image_path,

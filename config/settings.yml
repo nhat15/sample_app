@@ -20,6 +20,7 @@ user:
   size: 50
   gravatar_size: 80
   password_reset: 2
+  avatar_size: 50
 
 admin:
   user_per_page: 20

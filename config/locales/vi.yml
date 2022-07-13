@@ -32,6 +32,10 @@ vi:
   micropost_deleted: "Bài đăng đã bị xóa"
   valid_image: "phải đúng định dạng của ảnh"
   valid_image_size: "dung lượng nên bé hơn 5MB"
+  following: "Đang theo dõi"
+  followers: "Người theo dõi"
+  follow_failed: "Theo dõi thất bại"
+  unfollow_failed: "Hủy theo dõi thất bại"
   layouts:
     application:
       english: "Tiếng Anh"
@@ -104,6 +108,12 @@ vi:
       confirmation: “Xác nhận"
     show:
       micropost: "Bài đăng"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Hủy theo dõi"
+    show_follow:
+      micropost: "Bài đăng"
   shared:
     error_messages:
       the_form_contains: "Có"
@@ -113,6 +123,9 @@ vi:
       post: "Đăng bài"
     user_info:
       view_my_profile: "Xem hồ sơ của tôi"
+    stats:
+      following: "đang theo dõi"
+      followers: "người theo dõi"
   sessions:
     new:
       login: "Đăng nhập"

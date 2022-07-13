@@ -27,6 +27,10 @@ en:
   micropost_deleted: "Micropost deleted"
   valid_image: "must be a valid image format"
   valid_image_size: "should be less than 5MB"
+  following: "Following"
+  followers: "Followers"
+  follow_failed: "Follow failed"
+  unfollow_failed: "Unfollow failed"
   layouts:
     application:
       english: "English"
@@ -99,6 +103,13 @@ en:
       confirmation: "Password confirmation"
     show:
       micropost: "Micropost"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view_my_profile: "View my profile"
+      micropost: "Microposts"
   shared:
     error_messages:
       the_form_contains: "The form contains"
@@ -108,6 +119,9 @@ en:
       post: "Post"
     user_info:
       view_my_profile: "view my profile"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       login: "Log in"
