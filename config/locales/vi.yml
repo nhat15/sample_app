@@ -23,6 +23,15 @@ vi:
   pass_reset: "Mật khẩu đã được đặt lại."
   not_valid: "Người dùng không hợp lệ"
   password_expired: "Mật khẩu hết hạn"
+  users.before_action.not_found: "Người dùng không tìm thấy"
+  account_activation: "Kích hoạt tài khoản"
+  check_email_message: "Vui lòng kiểm tra email để kích hoạt tài khoản."
+  check_your_email: "Tài khoản chưa được kích hoạt, hãy kiểm tra email của bạn để biết liên kết kích hoạt"
+  password_reset: "Đặt lại mật khẩu"
+  micropost_created: "Bài đăng đã được tạo!"
+  micropost_deleted: "Bài đăng đã bị xóa"
+  valid_image: "phải đúng định dạng của ảnh"
+  valid_image_size: "dung lượng nên bé hơn 5MB"
   layouts:
     application:
       english: "Tiếng Anh"
@@ -51,6 +60,7 @@ vi:
       para_1: "Đây là trang chủ cho"
       para_2: "ứng dụng mẫu của"
       para_3: "khóa học Ruby on Rails"
+      micropost_feed: "Bài đăng"
     help:
       title_1: "Trợ giúp"
       para_1: "Nhận sự trợ giúp của khóa học Ruby on Rails tại"
@@ -77,7 +87,7 @@ vi:
       para_2: "trang liên hệ"
   users:
     index:
-        all_users: "All users"
+        all_users: "Tất cả người dùng"
     user:
       delete: "Xóa"
       you_sure: "Bạn có chắc chắn xóa không?" 
@@ -92,10 +102,17 @@ vi:
       para: "Đây sẽ là trang đăng ký cho người dùng."
       create_account: " Tạo tài khoản mới"
       confirmation: “Xác nhận"
+    show:
+      micropost: "Bài đăng"
   shared:
-    _error_messages:
+    error_messages:
       the_form_contains: "Có"
       error: "lỗi"
+    micropost_form:
+      compose: "Soạn bài viết mới..."
+      post: "Đăng bài"
+    user_info:
+      view_my_profile: "Xem hồ sơ của tôi"
   sessions:
     new:
       login: "Đăng nhập"
@@ -117,6 +134,7 @@ vi:
       warning: "Nếu yêu cầu đặt lại mật khẩu này không phải của bạn, hãy 
                 bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
       reset_password: "Đặt lại mật khẩu"
+      remember: "Ghi nhớ tôi trên máy tính này"
   password_resets:
     new:
       forgot_password: "Quên mật khẩu"
@@ -125,3 +143,9 @@ vi:
       reset_password: "Đặt lại mật khẩu"
       update_password: "Cập nhật mật khẩu"
       confirmation: "Xác nhận"
+  microposts:
+    micropost:
+      post: "Đã đăng"
+      ago: "trước"
+      delete: "Xóa"
+      confirm: "Chắc chưa?" 

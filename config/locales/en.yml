@@ -23,6 +23,10 @@ en:
   pass_reset: "Password has been reset."
   not_valid: "User not valid"
   password_expired: "Password expired"
+  micropost_created: "Micropost created!"
+  micropost_deleted: "Micropost deleted"
+  valid_image: "must be a valid image format"
+  valid_image_size: "should be less than 5MB"
   layouts:
     application:
       english: "English"
@@ -51,6 +55,7 @@ en:
       para_1: "This is the home page for the"
       para_2: "Ruby on Rails Tutorial"
       para_3: "sample application"
+      micropost_feed: "Micropost Feed"
     help:
       title_1: "Help"
       para_1: "Get help on the Ruby on Rails Tutorial at the"
@@ -92,10 +97,17 @@ en:
       para: "This will be a signup page for new users."
       create_account: "Create new account"
       confirmation: "Password confirmation"
+    show:
+      micropost: "Micropost"
   shared:
     error_messages:
       the_form_contains: "The form contains"
       error: "error"
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
+    user_info:
+      view_my_profile: "view my profile"
   sessions:
     new:
       login: "Log in"
@@ -124,3 +136,9 @@ en:
       reset_password: "Reset password"
       update_password: "Update password"
       confirmation: "Confirmation"
+  microposts:
+    micropost:
+      post: "Posted"
+      ago: "ago"
+      delete: "Delete"
+      confirm: "You sure?" 
