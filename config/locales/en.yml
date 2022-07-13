@@ -8,6 +8,12 @@ en:
   update_fail: "Update fails"
   user_delete: "User deleted"
   delete_failed: "Delete failed"
+  not_found: "Users not found"
+  account_activation: "Account activation"
+  check_email_message: "Please check your email to activate your account."
+  check_your_email: "Account not activated check your email for the activation link"
+  account_activated: "Account activated!"
+  invalid_activation_link: "Invalid activation link"
   layouts:
     application:
       english: "English"
@@ -87,3 +93,9 @@ en:
       signup_now: "Sign up now!"
       new_user: "New user?"
       remember: "Remember me on this computer"
+  user_mailer:
+    account_activation:
+      sample_app: "Sample App"
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
