@@ -1,5 +1,8 @@
 en:      
   ruby: "Ruby on Rails Tutorial Sample App"
+  user_not_found: "User Not Found!"
+  welcome: "Welcome to the Sample App!"
+  user_not_save: "User Not Saved!"
   layouts:
     apllication:
       english: "English"
@@ -47,7 +50,12 @@ en:
       contact: "Contact"
       para_1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       para_2: "contact page"
-  user:
+  users:
     new:
       sign_up: "Sign up"
       para: "This will be a signup page for new users."
+      create_account: "Create new account"
+  shared:
+    error_messages:
+      the_form_contains: "The form contains"
+      error: "error"

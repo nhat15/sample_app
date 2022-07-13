@@ -1,5 +1,8 @@
 vi: 
   ruby: "Khóa học Ruby on Rails"
+  user_not_found: "Không tìm thấy người dùng!"
+  welcome: "Chào mừng đến với ứng dụng mẫu!"
+  user_not_save: "Người dùng chưa được lưu!"
   layouts:
     apllication:
       english: "Tiếng Anh"
@@ -47,7 +50,12 @@ vi:
       contact: "Liên hệ"
       para_1: "Liên hệ cho khóa học Ruby on Rails về ứng dụng mẫu tại"
       para_2: "trang liên hệ"
-  user:
+  users:
     new:
       sign_up: "Đăng ký"
       para: "Đây sẽ là trang đăng ký cho người dùng."
+      create_account: " Tạo tài khoản mới"
+  shared:
+    error_messages:
+      the_form_contains: "Có"
+      error: "lỗi"
