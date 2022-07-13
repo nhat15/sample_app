@@ -2,7 +2,7 @@ source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "3.0.2"
-
+gem "bootstrap-sass", "3.4.1"
 gem "jbuilder", "~> 2.7"
 gem "mysql2", "~> 0.5"
 gem "puma", "~> 5.0"
@@ -10,6 +10,8 @@ gem "rails", "~> 6.1.6"
 gem "sass-rails", ">= 6"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 5.0"
+gem "rails-i18n", "~> 6.0"
+gem "config"
 
 gem "bootsnap", ">= 1.4.4", require: false
 
