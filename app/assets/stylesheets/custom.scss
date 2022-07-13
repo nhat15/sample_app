@@ -1,5 +1,20 @@
 @import 'color';
 
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* miscellaneous */
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
+}
+
 /* universal */
 body {
   padding-top: 60px;
@@ -20,7 +35,7 @@ textarea {
   } 
 }
 
-  /* typography */
+/* typography */
 h1, 
 h2, 
 h3, 
@@ -51,6 +66,8 @@ p {
   line-height: 1.7em;
 }
 
+
+
 /* header */
 #logo {
   float: left;
@@ -75,10 +92,10 @@ footer {
   color: $gray-light;
   a {
     color: $gray;
-  &:hover {
-    color: $gray-darker;
+    &:hover {
+      color: $gray-darker;
+    }
   }
-}
   small {
     float: left;
   }
