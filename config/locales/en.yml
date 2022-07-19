@@ -1,33 +1,53 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
-en:
-  hello: "Hello world"
+en:      
+  ruby: "Ruby on Rails Tutorial Sample App"
+  layouts:
+    apllication:
+      english: "English"
+      vietnamese: "Vietnamese"
+    header:
+      sample_app: "Sample app"
+      home: "Home"
+      help: "Help"
+      log_in: "Log in"
+    footer:
+      the: "The"
+      rails_tutorial: "Ruby on Rails Tutorial"
+      by: "by"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+  static_pages:
+    home:
+      sample_app: Sample app
+      sign_up: "Sign up now"
+      para_1: "This is the home page for the"
+      para_2: "Ruby on Rails Tutorial"
+      para_3: "sample application"
+    help:
+      title_1: "Help"
+      para_1: "Get help on the Ruby on Rails Tutorial at the"
+      para_2: "Rails Tutorial Help page"
+      para_3: "To get help on this sample app, see the"
+      para_4: "Ruby on Rails Tutorial"
+      para_5: "book"
+    about:
+      about: "About"
+      para_1: "The"
+      para_2: "Ruby on Rails Tutorial"
+      para_3: "part of the"
+      para_4: "Learn Enough"
+      para_5: "family of tutorials, is a"
+      para_6: "book"
+      para_7: "and"
+      para_8: "screencast series"
+      para_9: "to teach web development with"
+      para_10: "Ruby on Rails."
+      para_11: "This is the sample app for the tutorial."
+    contact:
+      contact: "Contact"
+      para_1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      para_2: "contact page"
+  user:
+    new:
+      sign_up: "Sign up"
+      para: "This will be a signup page for new users."

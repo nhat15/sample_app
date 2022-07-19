@@ -1,0 +1,53 @@
+vi: 
+  ruby: "Khóa học Ruby on Rails"
+  layouts:
+    apllication:
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+    header:
+      sample_app: "Ứng dụng mẫu"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      log_in: "Đăng nhập"
+    footer:
+      the: ""
+      rails_tutorial: "Khóa học Ruby on Rails"
+      by: "bởi"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      news: "Thông báo"
+  static_pages:
+    home:
+      sample_app: "Ứng dụng mẫu"
+      sign_up: "Đăng ký ngay"
+      para_1: "Đây là trang chủ cho"
+      para_2: "ứng dụng mẫu của"
+      para_3: "khóa học Ruby on Rails"
+    help:
+      title_1: "Trợ giúp"
+      para_1: "Nhận sự trợ giúp của khóa học Ruby on Rails tại"
+      para_2: "trang trợ giúp khóa học Rails"
+      para_3: "Để được trợ giúp với ứng dụng mẫu, hãy xem"
+      para_4: "sách"
+      para_5: "khóa học Ruby on Rails"
+    about:
+      about: "Về chúng tôi"
+      para_1: ""
+      para_2: "Khóa học Ruby on Rails,"
+      para_3: "một phần của tập các khóa học trong "
+      para_4: "Học Là Đủ"
+      para_5: ", là một"
+      para_6: "quyển sách"
+      para_7: "và"
+      para_8: "một loạt tập phim"
+      para_9: "để dạy về phát triển ứng dụng web với "
+      para_10: "Ruby on Rails."
+      para_11: "Đây là ứng dụng mẫu cho khóa học."
+    contact:
+      contact: "Liên hệ"
+      para_1: "Liên hệ cho khóa học Ruby on Rails về ứng dụng mẫu tại"
+      para_2: "trang liên hệ"
+  user:
+    new:
+      sign_up: "Đăng ký"
+      para: "Đây sẽ là trang đăng ký cho người dùng."
