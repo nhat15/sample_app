@@ -3,8 +3,10 @@ en:
   user_not_found: "User Not Found!"
   welcome: "Welcome to the Sample App!"
   user_not_save: "User Not Saved!"
+  invalid_messages: "Invalid email/password combination"
+
   layouts:
-    apllication:
+    application:
       english: "English"
       vietnamese: "Vietnamese"
     header:
@@ -12,6 +14,11 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log in"
+      log_out: "Log out"
+      users: "User"
+      profile: "Profile"
+      settings: "Settings"
+      account: "Account"
     footer:
       the: "The"
       rails_tutorial: "Ruby on Rails Tutorial"
@@ -59,3 +66,8 @@ en:
     error_messages:
       the_form_contains: "The form contains"
       error: "error"
+  sessions:
+    new:
+      login: "Log in"
+      signup_now: "Sign up now!"
+      new_user: "New user?"

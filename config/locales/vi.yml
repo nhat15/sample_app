@@ -3,8 +3,10 @@ vi:
   user_not_found: "Không tìm thấy người dùng!"
   welcome: "Chào mừng đến với ứng dụng mẫu!"
   user_not_save: "Người dùng chưa được lưu!"
+  invalid_messages: "Email/password không hợp lệ"
+
   layouts:
-    apllication:
+    application:
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
     header:
@@ -12,6 +14,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       log_in: "Đăng nhập"
+      log_out: "Đăng xuất"
+      users: "Người dùng"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      account: "Tài khoản"
     footer:
       the: ""
       rails_tutorial: "Khóa học Ruby on Rails"
@@ -56,6 +63,11 @@ vi:
       para: "Đây sẽ là trang đăng ký cho người dùng."
       create_account: " Tạo tài khoản mới"
   shared:
-    error_messages:
+    _error_messages:
       the_form_contains: "Có"
       error: "lỗi"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      signup_now: "Đăng ký ngay!"
+      new_user: "Người dùng mới?"
