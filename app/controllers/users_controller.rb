@@ -17,7 +17,7 @@ class UsersController < ApplicationController
       log_in @user
       flash[:success] = t "welcome"
       redirect_to @user
-    else 
+    else
       flash.now[:danger] = t "user_not_save"
       render :new
     end
