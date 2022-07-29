@@ -10,8 +10,15 @@ rails: "https://rubyonrails.org/"
 contact: "https://www.railstutorial.org/contact"
 help: "https://www.railstutorial.org/help"
 
+email: "https://gravatar.com/emails"
+
 user:
   name_max: 50
   email_max: 255
   email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   pass_min: 6
+  size: 50
+  gravatar_size: 80
+
+admin:
+  user_per_page: 20
