@@ -8,6 +8,12 @@ vi:
   update_fail: "Cập nhật thất bại"
   user_delete: "Người dùng đã bị xóa"
   delete_failed: "Xóa không thành công"
+  not_found: "Người dùng không tìm thấy"
+  account_activation: "Kích hoạt tài khoản"
+  check_email_message: "Vui lòng kiểm tra email để kích hoạt tài khoản."
+  check_your_email: "Tài khoản chưa được kích hoạt, hãy kiểm tra email của bạn để biết liên kết kích hoạt"
+  account_activated: "Tài khoản đã được kích hoạt!"
+  invalid_activation_link: "Đường dẫn kích hoạt tài khoản không hợp lệ"
   layouts:
     application:
       english: "Tiếng Anh"
@@ -87,3 +93,9 @@ vi:
       signup_now: "Đăng ký ngay!"
       new_user: "Người dùng mới?"
       remember: "Nhớ tôi trên trình duyệt này"
+  user_mailer:
+    account_activation:
+      sample_app: "Ứng dụng mẫu"
+      hi: "Xin chào"
+      welcome: "Chào mừng đến với ứng dụng mẫu! Hãy click vào đường link bên dưới để kích hoạt tài khoản của bạn:"
+      activate: "Kích hoạt"
