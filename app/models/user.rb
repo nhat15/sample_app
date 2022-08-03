@@ -1,7 +1,9 @@
 class User < ApplicationRecord
   attr_accessor :remember_token, :activation_token, :reset_token
   before_create :create_activation_digest
+  has_many :microposts, dependent: :destroy
 
+  before_create :create_activation_digest
   USER_ATTR = %i(name email password password_confirmation).freeze
   before_save :downcase_email
 
@@ -67,6 +69,10 @@ class User < ApplicationRecord
   def create_reset_digest
     self.reset_token = User.new_token
     update_columns reset_digest: User.digest(reset_token), reset_sent_at: Time.now
+  end
+
+  def feed
+    microposts.last_posts
   end
 
   private

@@ -2,6 +2,9 @@ source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "3.0.2"
+gem "active_storage_validations", "0.8.2"
+gem "image_processing", "1.12.1"
+gem "mini_magick", "4.9.5"
 gem "bcrypt", "3.1.13"
 gem "faker", "2.1.2"
 gem "pagy"

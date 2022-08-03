@@ -23,3 +23,11 @@ user:
 
 admin:
   user_per_page: 20
+
+micropost:
+  content_max: 140
+  image_path: ["image/jpeg", "image/gif", "image/png"]
+  image_size: 5
+  resize_to_limit: [500, 500]
+  image_accept: "image/jpeg,image/gif,image/png"
+  size: 50
