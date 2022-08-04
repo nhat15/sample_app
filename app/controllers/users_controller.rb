@@ -50,18 +50,22 @@ class UsersController < ApplicationController
     end
   end
 
+  def following
+    @title = t "following"
+    @pagy, @users = pagy @user.following
+    render :show_follow
+  end
+
+  def followers
+    @title = t "followers"
+    @pagy, @users = pagy @user.followers
+    render :show_follow
+  end
+
   private
 
   def user_params
     params.require(:user).permit User::USER_ATTR
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "please_log_in."
-    redirect_to login_url
   end
 
   def correct_user
